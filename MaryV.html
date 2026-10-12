@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="polly.css">
+	<title></title>
+</head>
+<body>
+	 <title>Слайдер с текстом</title>
+</head>
+<body>
+<header><button class="menu-open-btn">☰ Открыть меню</button>
+
+<!-- Само выезжающее меню --><div class="side-menu" id="sideMenu">
+  <button class="menu-close-btn">&times;</button>
+  <nav class="menu-links">
+    <a href="index.html">⬅Главная</a>
+    <a href="#">О проекте</a>
+    <a href="Games.html">Игры</a>
+    
+  </nav>
+</div>
+
+<!-- Затемнение заднего фона (оверлей) -->
+<div class="menu-overlay" id="menuOverlay"></div></header>
+<div class="container">
+    <!-- Верхняя часть: Слайдер -->
+    <div class="slider">
+       <center> <div class="slides">
+            <img src="img/4.jpg" class="active" alt="Фото 1">
+            <img src="img/18.jpg" alt="Фото 2">
+            <img src="img/19.jpg" alt="Фото 3">
+            <img src="img/20.jpg" alt="Фото 4">
+
+        </div></center>
+    </div>
+
+    <!-- Нижняя часть: Постоянный текст -->
+    <div class="static-text">
+        <h1>Марина Василевская</h1>
+        <h2>Первый космонавт суверенной Беларуси.</h2>
+        <h3><u>Интересные факты:</u></h3>
+        <p><b>№1.</b> С 2017 года работала бортпроводницей в национальной авиакомпании «Белавиа», летая на пассажирских лайнерах Boeing и Embraer.</p>
+        <p><b>№2.</b> В конце 2022 года успешно прошла жесткий конкурсный отбор среди нескольких тысяч претенденток. После этого последовала интенсивная восьмимесячная подготовка в российском Центре подготовки космонавтов.</p>
+        <p><b>№3</b>23 марта 2024 года стартовала на корабле «Союз МС-25» вместе с командиром Олегом Новицким и астронавтом Трейси Дайсон. Она провела на Международной космической станции (МКС) около двух недель и вернулась на Землю 6 апреля 2024 года</p>
+        <p><b>№4</b>Получила медаль «Золотая Звезда» из рук президента Беларуси. Стала 14-м человеком и второй женщиной в истории страны со званием "Герой Беларуси" (после Дарьи Домрачевой). Награждена орденом Гагарина</p>
+    </div>
+</div>
+
+</body>
+<script src="polly.js"></script>
+</html>

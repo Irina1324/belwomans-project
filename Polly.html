@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="polly.css">
+	<title></title>
+</head>
+<body>
+	 <title>Слайдер с текстом</title>
+</head>
+<body>
+<header><button class="menu-open-btn">☰ Открыть меню</button>
+
+<!-- Само выезжающее меню --><div class="side-menu" id="sideMenu">
+  <button class="menu-close-btn">&times;</button>
+  <nav class="menu-links">
+    <a href="index.html">⬅Главная</a>
+    <a href="o_proekte.html">О проекте</a>
+    <a href="Games.html">Игры</a>
+    <a href="svyaz.html">Связь</a>
+    
+  </nav>
+</div>
+<!-- Затемнение заднего фона (оверлей) -->
+<div class="menu-overlay" id="menuOverlay"></div>
+
+</header>
+<div class="container">
+    <!-- Верхняя часть: Слайдер -->
+    <div class="slider">
+       <center> <div class="slides">
+            <img src="img/6.jpg" class="active" alt="Фото 1">
+            <img src="img/1.jpg" alt="Фото 2">
+            <img src="img/7.jpg" alt="Фото 3">
+
+        </div></center>
+    </div>
+
+
+    <!-- Нижняя часть: Постоянный текст -->
+    <div class="static-text">
+        <h1>Полина Потоцкая</h1>
+        <h2>Белорусская разведчица.</h2>
+        <h3><u>Интересные факты:</u></h3>
+        <p><b>№1.</b>  Пользуясь идеальным знанием местных лесных троп, она скрытно и незаметно для немецких дозоров вывела целый взвод партизан к шоссе.  На подготовленном ею рубеже партизаны устроили засаду и открыли шквальный огонь по гитлеровским автомобилям, шедшим к немецкому гарнизону. Полина сражалась в первых рядах наравне с мужчинами, хладнокровно ведя огонь по врагу. В ходе боя была подбита техника противника и захвачены важные военные трофеи.</p>
+        <p><b>№2.</b> В другой раз командование поручило Полине провести боевую группу к деревне Лехово, где базировались крупные силы оккупантов. Потоцкая снова безошибочно рассчитала маршрут и вывела отряд прямо к тылу вражеских укреплений. Удар партизан оказался настолько внезапным и стремительным, что немецкий гарнизон был наголову разгромлен, не успев организовать эффективную оборону.</p>
+    </div>
+</div>
+
+</body>
+<script src="polly.js"></script>
+</html>

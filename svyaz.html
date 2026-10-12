@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="svyaz.css">
+	<title>Связь</title>
+</head>
+<body>
+	<div class="slider">
+       <center> <div class="slides">
+            <img src="img/73.jpg" class="active" alt="Фото 1">
+            <img src="img/72.jpg" alt="Фото 2">
+            <img src="img/71.jpg" alt="Фото 3">
+
+        </div></center>
+    </div>
+    <center>
+    	<h1>Автор проекта: Аврамец Полина Александровна</h1>
+    </center>
+    <br>
+   <div class="form-container">
+   <center><h2>Обратная связь</h2></center>
+  
+  <!-- Замените action на ссылку на ваш будущий серверный скрипт или сервис -->
+  <form id="order-form" action="send.php" method="POST"> 
+    
+    <div class="form-group">
+      <label for="name">Имя, фамилия</label>
+      <input type="text" id="name" name="username" placeholder="Иванов Иван" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="post">Эл.почта</label>
+      <!-- Исправлено: type="email" для корректной валидации -->
+      <input type="email" id="post" name="email" placeholder="example@mail.com" required>
+    </div>
+    
+    <div class="form-group">
+      <label for="text">Поделитесь вашим мнением о сайте</label>
+      <!-- Исправлено: textarea удобнее для ввода длинного текста -->
+      <textarea id="text" name="message" placeholder="Ваше мнение..." rows="4" required></textarea>
+    </div>
+    
+    <input type="submit" id="submit" value="ОТПРАВИТЬ">
+  </form>
+</div>
+
+<script src="polly.js"></script>
+</body>
+</html>
